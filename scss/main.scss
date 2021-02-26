@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+$background: #C7686E;
+$fontutama: #5A5A5A;
+$jenisfont1: 'Poppins', sans-serif;
+
+#homee {
+    background-color: $background;
+    height: 150px;
+}
+#home2{
+    background-color: $background;
+}
+.logo h5{
+    margin-left: 60px;
+    font-family: 'Poppins medium', sans-serif;
+    color: white;
+    font-size: 35px;
+}
+.navbar ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: -30px;
+    margin-left: 45px;
+    list-style-type: none;
+}
+.navbar a{
+    font-family: 'Poppins medium', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.produk img{
+    width: 600px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+.tulisan h5{
+    color: white;
+    margin-left: 60px;
+    font-family: $jenisfont1;
+    font-size: 70px;
+    text-shadow: 3px 4px 10px rgba(0,0,0,0.18);
+}
+.tulisan h6{
+    color: white;
+    margin-left: 60px;
+    font-family: $jenisfont1;
+    font-size: 62px;
+    text-shadow: 3px 4px 10px rgba(0,0,0,0.18);
+}
+.tmbl{
+    width: 200px;
+    text-decoration: none; 
+	margin-top: 50px;
+    margin-left: 70px;
+	padding: 10px 20px 10px 30px;
+	background-color: white;
+    box-shadow: 3px 4px 10px rgba(0,0,0,0.18);
+    a{
+        color: $background;
+    }
+}
+.service{
+    h3{
+    color: $fontutama;
+    font-family: 'Poppins medium', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    }
+}
+.tcategory{
+    h5{
+        color: $fontutama;
+        font-family: 'Poppins medium', sans-serif;
+        font-size: 28px;
+    }
+    h6{
+        color: $background;
+        font-family: 'Poppins medium', sans-serif;
+        font-size: 18px;
+    }
+}
+.kategoricard{
+    .card{
+        height: 300px;
+        width: 250px;
+        box-shadow: 3px 4px 10px rgba(0,0,0,0.18);
+        border-radius: 20px;
+        border: 1px solid #E5E5E5;
+        // height: initial;
+    }
+}
+.card img{
+    width: 70px;
+    margin: auto;
+}
+.gambarkiri{
+    margin-left: 50px;
+}
+.gambarkanan{
+    margin-right: 80px;
+}
+.informasi ul li{
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.informasi a{
+    text-decoration: none;
+    color: $fontutama;
+}
+// .sosmed i{
+//     display: none;
+// }
+.login .card{
+    height: 500px;
+    width: 350px;
+    box-shadow: 3px 4px 10px rgba(0,0,0,0.18);
+    border-radius: 20px;
+    border: 1px solid #E5E5E5;
+    margin-top: 30px;
+    h5{
+        color: $fontutama;
+        font-family: 'Poppins medium', sans-serif;
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .formlogin{
+        margin-top: 40px;
+    }
+    .label{
+        color: $fontutama;
+        font-family: 'Poppins medium', sans-serif;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-right: 100px;
+    }
+    .blogin{
+        background-color: $background;
+        margin-top: 30px;
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        color: white;
+    }
+    .input{
+        border-radius: 20px;
+        width: 200px;
+    }
+}
+.register .card{
+    height: 560px;
+    width: 400px;
+    box-shadow: 3px 4px 10px rgba(0,0,0,0.18);
+    border-radius: 20px;
+    border: 1px solid #E5E5E5;
+    h5{
+        color: $fontutama;
+        font-family: 'Poppins medium', sans-serif;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .formlogin{
+        margin-top: 20px;
+    }
+    .label{
+        color: $fontutama;
+        font-family: 'Poppins medium', sans-serif;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-right: 100px;
+    }
+    .blogin{
+        background-color: $background;
+        margin-top: 30px;
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        color: white;
+    }
+    .input{
+        border-radius: 20px;
+        width: 280px;
+    }
+}
+.forgot .card{
+    height: 450px;
+    width: 350px;
+    box-shadow: 3px 4px 10px rgba(0,0,0,0.18);
+    border-radius: 20px;
+    border: 1px solid #E5E5E5;
+    margin-top: 50px;
+    h5{
+        color: $fontutama;
+        font-family: 'Poppins medium', sans-serif;
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .formlogin{
+        margin-top: 30px;
+    }
+    .label{
+        color: $fontutama;
+        font-family: 'Poppins medium', sans-serif;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-right: 100px;
+    }
+    .bforgot{
+        background-color: $background;
+        margin-top: 50px;
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        color: white;
+    }
+    .input{
+        border-radius: 20px;
+        width: 250px;
+    }
+}
+.akun{
+    color: $fontutama;
+    font-family: 'Poppins medium', sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 18px;
+}
+.lupa{
+    color: $fontutama;
+    font-family: 'Poppins medium', sans-serif;
+    font-size: 12px;
+    margin-right: 80px;
+    // text-decoration: none;
+    // color: rosybrown;
+}

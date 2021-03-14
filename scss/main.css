@@ -41,7 +41,6 @@
   margin-left: 60px;
   font-family: "Poppins", sans-serif;
   font-size: 70px;
-  text-shadow: 3px 4px 10px rgba(0, 0, 0, 0.18);
 }
 
 .tulisan h6 {
@@ -49,7 +48,6 @@
   margin-left: 60px;
   font-family: "Poppins", sans-serif;
   font-size: 62px;
-  text-shadow: 3px 4px 10px rgba(0, 0, 0, 0.18);
 }
 
 .tmbl {
@@ -59,11 +57,13 @@
   margin-left: 70px;
   padding: 10px 20px 10px 30px;
   background-color: white;
-  -webkit-box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.18);
-          box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.18);
+  border-radius: 0 20px 20px 20px;
+  -webkit-box-shadow: 3px 4px 25px 0px #e9747c;
+  box-shadow: 3px 4px 25px 0px #e9747c;
 }
 
 .tmbl a {
+  text-decoration: none;
   color: #C7686E;
 }
 
@@ -89,8 +89,8 @@
 .kategoricard .card {
   height: 300px;
   width: 250px;
-  -webkit-box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.18);
-          box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   border: 1px solid #E5E5E5;
 }
@@ -259,5 +259,52 @@
   font-family: 'Poppins medium', sans-serif;
   font-size: 12px;
   margin-right: 80px;
+}
+
+.ml-60 {
+  margin-left: 60px;
+}
+
+.shadow-custom {
+  -webkit-box-shadow: 4px 4px 20px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 20px 2px rgba(0, 0, 0, 0.1);
+}
+
+.col-md-5 img .bg-cover-cart {
+  background-size: cover;
+}
+
+.btn-cta {
+  background-color: #FF5964 !important;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 20px 2px rgba(255, 89, 100, 0.5);
+  box-shadow: 2px 2px 20px 2px rgba(255, 89, 100, 0.5);
+}
+
+.wrapper-catalog {
+  margin-left: 60px;
+}
+
+.star-color {
+  color: #FF5964;
+}
+
+.custom-card {
+  border-radius: 20px !important;
+  -webkit-box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 4px 4px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+.btn-cta-catalog {
+  max-width: 350px;
+  border: 2px solid #C7686E;
+}
+
+.form-custom {
+  border: 1px solid #FF5964 !important;
+}
+
+.text-pink {
+  color: #FF5964;
 }
 /*# sourceMappingURL=main.css.map */
